@@ -1,0 +1,25 @@
+{
+  "name": "zona-new",
+  "version": "1.0.0",
+  "private": "true",
+  "repository": "empty",
+  "description": "zona-desktop-new",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank William Abagnale",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-newer": "^1.1.0",
+    "grunt-twig-render": "^1.6.0",
+    "load-grunt-config": "^0.16.0",
+    "time-grunt": "^1.1.0"
+  }
+}

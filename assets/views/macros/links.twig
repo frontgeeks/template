@@ -1,0 +1,10 @@
+# Макрос для подключения библиотек (js)
+
+{% macro js_libs(name) %}
+  <script type="text/javascript" charset="utf-8" src="/javascripts/{{ name }}.js"></script>
+{% endmacro %}
+
+# Макрос для подключения стилей
+{% macro css(name) %}
+  <link rel="stylesheet" href="/style/{{ name }}.css"/>
+{% endmacro %}

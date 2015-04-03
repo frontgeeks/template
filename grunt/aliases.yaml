@@ -1,0 +1,21 @@
+default:
+  description: 'Сборка девелопа'
+  tasks:
+    - dev
+    - serverLive
+dev:
+  description: 'Сборка девелопа && Запуск сервера c liveReload'
+  tasks:
+    - 'concurrent:cleanAll'
+    - 'concurrent:dev__compile'
+    - 'concurrent:dev__copy'
+    - 'concurrent:dev__public'
+    - 'concurrent:cleanTmp'
+serverLive:
+  description: 'Запуск сервера c liveReload'
+  tasks:
+    - 'concurrent:serverLive'
+cleanAll:
+  description: 'Чистка проекта'
+  tasks:
+    - 'concurrent:cleanAll'
