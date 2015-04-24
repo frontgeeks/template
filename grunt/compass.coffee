@@ -2,10 +2,10 @@ module.exports =
   dev:
     src: 'assets/sass/**/*.sass',
     options:
-      sourcemap: true
+      sourcemap: false
       require: 'susy'
       imagesDir: 'assets/public/images'
-      outputStyle: 'compact'
+      outputStyle: 'compress'
       noLineComments: false
       sassDir: 'assets/sass'
       cssDir: '.tmp/style'

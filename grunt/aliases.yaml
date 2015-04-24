@@ -19,3 +19,4 @@ cleanAll:
   description: 'Чистка проекта'
   tasks:
     - 'concurrent:cleanAll'
+

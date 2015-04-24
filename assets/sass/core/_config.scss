@@ -3,7 +3,7 @@ $susy: (
   output: float, // float | isolate
   math: fluid, // fluid | static (requires column-width)
   column-width: false, // false | value,
-  container: auto, // length or % | auto
+  container: 940px, // length or % | auto
   container-position: center, // left | center | right | <length> [*2]
   last-flow: to,
   columns: 12,
